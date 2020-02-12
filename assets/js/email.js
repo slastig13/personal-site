@@ -34,7 +34,7 @@ button.addEventListener('click', evt => {
     }
     let successNode = document.createElement('P')
     successNode.innerText =
-      "Thank's for reaching out! An email has been sent to me and I'll be in touch as soon as possible. \n All the best, \n Sam"
+      "Thanks for reaching out! An email has been sent to me and I'll be in touch as soon as possible. \n All the best, \n Sam"
     successNode.id = 'successNode'
     document.getElementById('contact-form').appendChild(successNode)
   } else if (!document.getElementById('addedNode')) {
